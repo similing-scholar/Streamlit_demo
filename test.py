@@ -4,7 +4,7 @@ import os
 
 
 # 从指定路径读取Excel文件
-file_path = r"D:\BIT课题研究\微型光谱成像仪\【数据】导电聚合物数据\方案设计\原材料数据库\EC合成化学品数据20230619.xlsx"
+file_path = "./EC合成化学品数据20230619.xlsx"
 df = pd.read_excel(file_path)
 # 获取文件名
 file_name = os.path.basename(file_path)
